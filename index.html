@@ -2,31 +2,13 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Página de Vendas</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    .botao {
-      background-color: #007bff;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
-      margin-top: 20px;
-      display: inline-block;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Big Boom Creatina</title>
 
-  <!-- Pixel do Facebook -->
+  <!-- Importa o CSS externo -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Facebook Pixel -->
   <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -37,16 +19,28 @@
     s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script');
 
-    fbq('init', 'SEU_ID_PIXEL'); // <-- Troque pelo seu ID do Pixel
+    fbq('init', 'SEU_ID_PIXEL'); // 🔁 Substitua pelo seu ID do Pixel
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=SEU_ID_PIXEL&ev=PageView&noscript=1"
-  /></noscript>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=SEU_ID_PIXEL&ev=PageView&noscript=1"/>
+  </noscript>
 </head>
 <body>
-  <h1>Oferta Especial!</h1>
-  <p>Conheça o produto que está mudando vidas.</p>
-  <a class="botao" href="https://site-do-produto.com" target="_blank">Quero Comprar</a>
+
+  <h1>Big Boom Creatina</h1>
+  <p>Suplemento inovador com creatina + colágeno para resultados reais. Mais força, mais saúde, mais performance.</p>
+  
+  <img class="product-image" src="https://via.placeholder.com/300x300.png?text=Big+Boom+Creatina" alt="Big Boom Creatina">
+
+  <a href="https://link-do-produto.com" class="cta-button" target="_blank">Quero Comprar Agora</a>
+
+  <footer>
+    © 2025 Big Boom Suplementos. Todos os direitos reservados.
+  </footer>
+
+  <!-- Importa o JS externo -->
+  <script src="script.js"></script>
 </body>
 </html>
